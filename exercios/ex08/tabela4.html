@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+  <title>Hello, World!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  
+    table {
+     border-collapse: collapse;
+     width:300px; 
+    }
+    td,th {
+     border:1px solid black;
+      padding: 5px;
+    }
+  caption {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  #center {
+    padding-left: 50px;
+  }
+  
+  </style>
+</head>
+<body>
+  <h1>
+    tabela
+  </h1>
+  <table>
+    <caption>Filmes favoritos de cada um</caption>
+    <thead>
+    <tr>
+      <th scope="col">Grupos</th>
+      <th  scope="col"id="center"style="padding-right:50px">Nomes</th>
+      <th scope="colgroup" colspan="3" style="width:50px">filmes</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="rowgroup"rowspan="3">Mulheres</th>
+        <td>Ana maria sara</td>
+        <td>akan</td>
+        <td>Rambo</td>
+        <td>Vigadores</td>
+      </tr>
+      <tr>
+        <td>Beatriz souza</td>
+        <td>Hulk</td>
+        <td>Inception</td>
+        <td>Batman</td>
+      </tr>
+      <tr>
+        <td>Claudio Maia</td>
+        <td>Obtesion</td>
+        <td>Matrix</td>
+        <td>Big hero</td>
+      </tr>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Homen</th>
+        <td>Bruno mendoça</td>
+        <td>Intocavél</td>
+        <td>Amenisia</td>
+        <td>Gladiador</td>
+      </tr>
+      <tr>
+        <td>Gabriel Lourenço</td>
+        <td>Wall-E</td>
+        <td>Oldbby</td>
+        <td>Dangal</td>
+      </tr>
+      <tr>
+        <td>Fabriano Mota</td>
+        <td>Star Wars 5</td>
+        <td>Taxi Driver</td>
+        <td>Toy Story</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
