@@ -1,26 +1,7 @@
-*{
-    margin: 0;
 
-}
 
-img{
-  width: 264.4px;
-  
-  
-}
- 
-div{
- text-align: center;
- background-color: rgb(184, 0, 0);
- padding-top: 20px;
- padding-bottom: 20px;
- padding-left:10px;
-
- 
-}
-
-a{  
-    text-decoration: none;
-    color: white;
-
-}
+body{
+    background-image: url(.../imagens/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 270px;
+ }
