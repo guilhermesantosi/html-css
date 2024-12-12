@@ -22,14 +22,22 @@ body{
     background-repeat: no-repeat;
     height: 630px;
     width: 305px;
-    margin-top: 10px;
+    margin-top: 40px;
    }
 
-   
+   section#apps{
+    margin: 10px;
+
+   }
 
 
    img{
      max-height: 100px;
      max-width:50px ;
      border-radius: 30px;
+     }
+
+     img:hover{
+      border: 2px solid rgb(167, 232, 252);
+      
      }
