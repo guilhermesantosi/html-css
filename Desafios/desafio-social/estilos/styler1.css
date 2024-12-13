@@ -24,20 +24,22 @@ body{
     width: 305px;
     margin-top: 40px;
    }
-
+  
    section#apps{
-    margin: 10px;
-
+    margin: auto;
    }
-
 
    img{
      max-height: 100px;
      max-width:50px ;
      border-radius: 30px;
+     margin: auto;
+     margin-right: 4px;
      }
 
      img:hover{
       border: 2px solid rgb(167, 232, 252);
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+      se
       
      }
