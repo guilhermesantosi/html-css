@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>formulários</h1>
+    <form action="" method="post">
+     <p>
+        <label for="ipais">Seu pais</label>
+        <select name="paises" id="ipais">
+           
+            <optgroup   label="sul">
+                <option value="RS">Russia</option>
+                <option value="BR"> Brasil</option>
+                <option value="PT">Portugal</option>
+            </optgroup>
+
+            <optgroup label="norte">
+                <option value="EUA">Estados Unidos</option>
+                <option value="AGT">Argetina</option>
+                <option value="PRg">Paraguai</option>
+            </optgroup>
+        </select>
+     </p>
+
+     <p>
+
+      <label for="ipro">profissão</label>
+      <input type="text" name="prof" id="ipro" list="prf" placeholder="Sua profissão">
+      <datalist id="prf">
+        <option>empregado</option>
+        <option>Pedreiro</option>
+        <option>professor</option>
+      </datalist>
+
+     </p>
+
+     <p>
+      
+      <label for="imsg">Escreva sua menssagem</label>
+      <textarea name="mssg" id="imsg" cols="20" rows="10"></textarea>
+
+     </p>
+     
+     <p>
+        <input type="reset" value="limpar">
+     </p>
+
+    </form>
+
+
+</body>
+</html>
