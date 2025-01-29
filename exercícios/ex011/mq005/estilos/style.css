@@ -30,16 +30,18 @@ nav{
   background-color: rgb(44, 44, 44);
   padding: 0.5rem;
   cursor: pointer;
+  color: white;
 
 }
 
 #burguer:hover{
     background-color: white;
+    color: black;
 }
 
 nav ul{
-    background-color: rgb(58, 58, 58);
     list-style-type: none;
+    
 }
 
 nav ul li a{
